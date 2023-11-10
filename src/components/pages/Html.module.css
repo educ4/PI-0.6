@@ -1,0 +1,39 @@
+.container{
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.video{
+    padding: 90px;
+    margin-left: 570px;
+}
+
+.btn{
+    margin: 20px;
+    display: flex;
+    flex-direction:unset;
+}
+
+.titulo{
+    color:black;
+}
+
+.button {
+    background-color: #007BFF; 
+    color: #fff; 
+    padding: 1em 2em; 
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: 20px; 
+}
+  
+  .button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}

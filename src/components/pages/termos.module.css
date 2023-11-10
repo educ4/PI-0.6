@@ -1,0 +1,33 @@
+
+.container {
+  max-width: 800px;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.container h1 {
+  color: #333;
+  font-size: 28px;
+}
+
+.container h2 {
+  color: #555;
+  font-size: 24px;
+}
+
+.container p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+

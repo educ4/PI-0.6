@@ -1,0 +1,89 @@
+/* Estilos para o container principal */
+.container {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto; /* Adiciona espaços acima e abaixo do container */
+    transition: transform 0.3s; /* Adiciona uma animação de transformação */
+    gap: 25px;
+  }
+  
+  /* Adiciona uma animação de escala ao passar o mouse */
+  .container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para o cabeçalho */
+  .header {
+    
+    color: #ffffff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Estilos para o título no cabeçalho */
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+.button{
+    background-color: #007BFF; 
+    color: #fff; 
+    padding: 1em 2em; 
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin: 10px;
+    margin-top: 20px; 
+}
+  
+  
+  /* Estilos para os botões no cabeçalho */
+  .buttonBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para os botões */
+  .buttonBox button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonBox button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para a linha horizontal */
+  .header hr {
+    border-color: #ffffff;
+  }
+  
+  /* Estilos para o box2 */
+  .box2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .titulo{
+    color: black;
+
+  }
+  
